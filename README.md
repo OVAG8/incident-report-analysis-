@@ -1,11 +1,12 @@
-# [Nombre del Proyecto: ej. Análisis de Tráfico de Red y Detección de Anomalías]
+Informe de análisis de incidente.
 
-## 🎯 Objetivo
+🎯 Objetivo
 Este ejercicio tiene como objetivo analizar un incidente de seguridad ficticio que comprometió la red interna de la compañía durante dos horas. El equipo de seguridad respondió bloqueando el trafico de paquetes ICMP entrantes y se llevo a cabo una investigación para determinar la causa, solucionar el problema y tomar medidas para evitar futuros ataques similares.
 
 🛠️ Herramientas y Entorno
 Marco de ciberseguridad del Instituto Nacional de Estadares y Tecnología (NIST)
 Ataque de denegación de servicio (DoS)
+
 
 🔍 Metodología y Procedimiento
 -Identificación: El equipo de seguridad identifico una vulnerabilidad en uno de los cortafuegos de la red.
@@ -19,6 +20,12 @@ Ataque de denegación de servicio (DoS)
 La correcta configuracion de los cortafuegos es fundamental para evitar ataques DoS así como el uso de sistemas de detección de intrusos que analicen el trafico de la red en busca de anomalías. Se recomienda mantener estas herramientas al día mediante un constante monitoreo así como realizar copias de respaldo frecuentemente que se puedan usar en caso de que la información o los datos sean comprometidos.
 
 
- 
  📌 Conclusiones
  Este ejercicio nos enseña la importancia de las herramientas que un analista de seguridad debe manejar en su trabajo. El marco de ciberseguridad del instituto de estándares y tecnología (NIST) es una herramienta muy útil para mitigar ataques, amenazas y vulnerabilidades. El correcto uso de estas herramientas garantizan que los profesionales de la seguridad tengan éxito en sus tareas.
+
+
+
+
+
+
+[Incident report analysis.docx](https://github.com/user-attachments/files/32587180/Incident.report.analysis.docx)
