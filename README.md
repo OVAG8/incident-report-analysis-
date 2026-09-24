@@ -1,24 +1,24 @@
 # [Nombre del Proyecto: ej. Análisis de Tráfico de Red y Detección de Anomalías]
 
 ## 🎯 Objetivo
-Describir en 2-3 líneas qué problema se abordó o qué escenario se simuló en este trabajo práctico.
+Este ejercicio tiene como objetivo analizar un incidente de seguridad ficticio que comprometió la red interna de la compañía durante dos horas. El equipo de seguridad respondió bloqueando el trafico de paquetes ICMP entrantes y se llevo a cabo una investigación para determinar la causa, solucionar el problema y tomar medidas para evitar futuros ataques similares.
 
-## 🛠️ Herramientas y Entorno
-* **Sistema Operativo:** Ubuntu 22.04 / Kali Linux / Windows
-* **Herramientas:** Wireshark, Nmap, VirtualBox, etc.
-* **Red/Topología:** Breve descripción del entorno (ej. dos máquinas virtuales en red interna).
+🛠️ Herramientas y Entorno
+Marco de ciberseguridad del Instituto Nacional de Estadares y Tecnología (NIST)
+Ataque de denegación de servicio (DoS)
 
-## 🔍 Metodología y Procedimiento
-Explica paso a paso lo realizado:
-1. **Fase 1: Reconocimiento / Captura:** Cómo se levantó la información o el tráfico.
-2. **Fase 2: Análisis:** Qué patrones, puertos o alertas se buscaron.
-3. **Fase 3: Hallazgos:** Qué vulnerabilidades o anomalías se encontraron.
+🔍 Metodología y Procedimiento
+-Identificación: El equipo de seguridad identifico una vulnerabilidad en uno de los cortafuegos de la red.
+-Protección: El equipo de seguridad configuro correctamente el cortafuegos en cuestión para detener el trafico de paquetes ICMP entrantes y se implemento un sistema IPS/IDS.
+-Detección: Para detectar nuevos ataques, hemos implementado la verificación de la dirección IP de origen en el cortafuegos con el fin de identificar direcciones IP suplantadas en los paquetes ICMP entrantes.
+-Respuesta: El equipo bloqueo todos los paquetes ICMP entrantes y se restauro el servicio de la red critica de la empresa.
+-Recuperación: El equipo de seguridad informo que los sistemas y la red de la compañía regresaron a su funcionamiento normal y se han tomado las medidas necesarias para evitar futuros ataques de denegación de servicios (DoS).
 
-*(Inserta capturas de pantalla clave usando: `![Descripción](capturas/nombre-imagen.png)`)*
 
-## 🛡️ Mitigación y Recomendaciones
-* Qué controles deben aplicarse para resolver el fallo detectado (cerrar puertos, cifrado, reglas de firewall, etc.).
-* Medidas de prevención recomendadas.
+🛡️ Mitigación y Recomendaciones
+La correcta configuracion de los cortafuegos es fundamental para evitar ataques DoS así como el uso de sistemas de detección de intrusos que analicen el trafico de la red en busca de anomalías. Se recomienda mantener estas herramientas al día mediante un constante monitoreo así como realizar copias de respaldo frecuentemente que se puedan usar en caso de que la información o los datos sean comprometidos.
 
-## 📌 Conclusiones
-Breve reflexión sobre lo aprendido durante la práctica y el impacto del riesgo evaluado.
+
+ 
+ 📌 Conclusiones
+ Este ejercicio nos enseña la importancia de las herramientas que un analista de seguridad debe manejar en su trabajo. El marco de ciberseguridad del instituto de estándares y tecnología (NIST) es una herramienta muy útil para mitigar ataques, amenazas y vulnerabilidades. El correcto uso de estas herramientas garantizan que los profesionales de la seguridad tengan éxito en sus tareas.
